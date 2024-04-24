@@ -1,0 +1,32 @@
+#root {
+  width: 100%;
+  max-width: 1980px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  background-image: url("./assets/img/bckg.png");
+  background-size: cover;
+
+  font-family: "TT Firs Neue trl";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  /* background-image: url("../src/assets/img/bckg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--main-blue-color);
+  margin-top: 160px;
+}
+
+.container {
+  max-width: 1279px;
+  margin: 0 auto;
+}
